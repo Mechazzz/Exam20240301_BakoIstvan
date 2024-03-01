@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,21 @@
   </head>
   <body>
     <div id="app"></div>
+    <div id="registrationPage">
+      <input type="text" id="emailInput" placeholder="Email address" />
+      <input type="text" id="passwordInput" placeholder="Password" />
+      <input
+        type="text"
+        id="passwordConfirmInput"
+        placeholder="Confirm Password"
+      />
+      <button id="registrationButton">Register</button>
+    </div>
+    <div id="newPage">
+      Sikeres reg!
+      <button id="backButton">Vissza főoldalra</button>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
